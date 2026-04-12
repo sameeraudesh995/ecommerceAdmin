@@ -4,9 +4,11 @@ import Sidebar from '../../Components/Sidebar/Sidebar'
 import { Routes, Route } from 'react-router-dom'
 import AddProduct from '../../Components/AddProduct/AddProduct'
 import ListProduct from '../../Components/ListProduct/ListProduct'
+import { ToastProvider } from '../../Components/ToastContext/ToastContext'
 
 const Admin = () => {
   return (
+    <ToastProvider>
     <div className='admin'>
         <Sidebar/>
         <Routes>
@@ -15,6 +17,7 @@ const Admin = () => {
         </Routes>
 
     </div>
+    </ToastProvider>
   )
 }
 
