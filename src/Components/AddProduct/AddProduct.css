@@ -2,8 +2,8 @@
   box-sizing: border-box;
   width: 100%;
   padding: 40px 50px;
-  margin: 30px 30px 30px 30px;
-  border-radius: 16px;
+  margin: 30px 30px 0px 30px;
+  border-radius: 16px 16px 0 0;
   background: white;
   border: 1px solid #e8f5f0;
   box-shadow: 0 4px 24px rgba(0, 200, 150, 0.08);

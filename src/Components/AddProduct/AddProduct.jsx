@@ -12,7 +12,7 @@ const AddProduct = () => {
     name: "",
     discription: "",        // ✅ added
     image: "",
-    category: "women",
+    category: "GOV",
     new_price: "",
     old_price: ""
   })
@@ -77,7 +77,7 @@ const AddProduct = () => {
               name: "",
               discription: "",
               image: "",
-              category: "women",
+              category: "GOV",
               new_price: "",
               old_price: ""
             })
@@ -151,9 +151,9 @@ const AddProduct = () => {
           name="category"
           className="add-product-selector"
         >
-          <option value="women">Women</option>
-          <option value="men">Men</option>
-          <option value="kid">Kid</option>
+          <option value="GOV">Govenment</option>
+          <option value="PRI">Private</option>
+          <option value="OTH">Other</option>
         </select>
       </div>
 
